@@ -15,9 +15,6 @@ export default defineConfig({
         type: 'module'
       },
       manifest: false,
-      injectManifest: {
-        injectionPoint: null,
-      },
     })
   ],
   server: {
